@@ -1,0 +1,14 @@
+There is no difference between addition and subtraction in GF(3).
+False. In GF(3) = ℤ/3ℤ, subtraction is a–b = a + (–b), and since –b ≠ b in general (for example 1–2 = 1+1 = 2, whereas 1+2 = 0), the two operations differ.
+
+There is no difference between addition and subtraction in GF(2ⁿ), for any integer n.
+True. All fields of characteristic 2 satisfy –a = a, so a–b = a + (–b) = a + b; thus subtraction and addition coincide.
+
+For all elements of GF(2), multiplication is equivalent to an AND gate.
+True. GF(2) = {0,1} with 1·1 = 1 and 1·0 = 0·0 = 0 matches the truth table of logical AND.
+
+A polynomial of degree 8 is a possible element of the field GF(2⁸).
+False. Elements of GF(2⁸) are represented by polynomials of degree ≤ 7 (i.e. degree < 8); any degree-8 polynomial is reduced modulo the irreducible polynomial down to degree ≤ 7.
+
+P(x) = x⁴ + x³ + x + 1 is an irreducible polynomial.
+False. P(1) = 1+1+1+1 = 0 in GF(2), so x = 1 is a root ⇒ P(x) is divisible by (x+1) and thus reducible.
